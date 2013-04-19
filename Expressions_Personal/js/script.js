@@ -10,10 +10,19 @@ var restaurantType[0] = 7; //rought average of price per meal
 var restaurantType[1] = 10;//rought average of price per meal
 var restaurantType[2] = 15;//rought average of price per meal
 var restaurantType[3] = 25;//rought average of price per meal
+restaurantType[0] = 7;    //rought average of price per meal
+restaurantType[1] = 10;   //rought average of price per meal
+restaurantType[2] = 15;   //rought average of price per meal
+restaurantType[3] = 25;   //rought average of price per meal
 
 var howManyPeople = 4; //size of family
+
+var oneVisitCost = restaurantType[1] * howManyPeople;
 
 var frequency = 3;  //number of times per month 
 
 console.log(restaurantType[1]*howManyPeople*frequency)
+var total = oneVisitCost * frequency;
+
+console.log(total);
 
