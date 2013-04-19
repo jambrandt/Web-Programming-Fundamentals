@@ -3,7 +3,7 @@
 //this changes the css of your body tag to be green
 document.querySelector("body").style.backgroundColor= "#00FF00";
 
-var storageUnit = ['Small','Medium','Large']
+var storageUnit = ['5x10','10x15','10x20']
 
 storageUnit[0] = 29; //number of units rented
 storageUnit[1] = 59; //number of units rented
