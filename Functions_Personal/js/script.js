@@ -8,8 +8,8 @@ document.querySelector("body").style.backgroundColor= "#00FF00";
 function chickenFood(){
 	var chickenNumber = Number(prompt('How many chickens do you have?'));
 	var foodForChicken = chickenNumber * 4;//in ounces
-	console.log(foodForChicken)
+	console.log(foodForChicken + "ounces")
 }
 
 chickenFood();
-console.log("in ounces")
+
